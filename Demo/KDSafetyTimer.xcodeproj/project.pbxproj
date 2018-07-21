@@ -14,6 +14,8 @@
 		62AB1AE821037E7F00A4D4CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AB1AE621037E7F00A4D4CB /* LaunchScreen.storyboard */; };
 		62AB1AF321037E7F00A4D4CB /* KDSafetyTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB1AF221037E7F00A4D4CB /* KDSafetyTimerTests.swift */; };
 		62AB1AFE21037E7F00A4D4CB /* KDSafetyTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB1AFD21037E7F00A4D4CB /* KDSafetyTimerUITests.swift */; };
+		62AB1B2E2103828000A4D4CB /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB1B2D2103828000A4D4CB /* BViewController.swift */; };
+		62AB1B52210388CA00A4D4CB /* KDSafetyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB1B51210388CA00A4D4CB /* KDSafetyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		62AB1AF921037E7F00A4D4CB /* KDSafetyTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDSafetyTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AB1AFD21037E7F00A4D4CB /* KDSafetyTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDSafetyTimerUITests.swift; sourceTree = "<group>"; };
 		62AB1AFF21037E7F00A4D4CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62AB1B2D2103828000A4D4CB /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		62AB1B51210388CA00A4D4CB /* KDSafetyTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDSafetyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		62AB1AD121037E7D00A4D4CB = {
 			isa = PBXGroup;
 			children = (
+				62AB1B50210388CA00A4D4CB /* Sources */,
 				62AB1ADC21037E7D00A4D4CB /* KDSafetyTimer */,
 				62AB1AF121037E7F00A4D4CB /* KDSafetyTimerTests */,
 				62AB1AFC21037E7F00A4D4CB /* KDSafetyTimerUITests */,
@@ -99,6 +104,7 @@
 			children = (
 				62AB1ADD21037E7D00A4D4CB /* AppDelegate.swift */,
 				62AB1ADF21037E7D00A4D4CB /* ViewController.swift */,
+				62AB1B2D2103828000A4D4CB /* BViewController.swift */,
 				62AB1AE121037E7D00A4D4CB /* Main.storyboard */,
 				62AB1AE421037E7F00A4D4CB /* Assets.xcassets */,
 				62AB1AE621037E7F00A4D4CB /* LaunchScreen.storyboard */,
@@ -123,6 +129,15 @@
 				62AB1AFF21037E7F00A4D4CB /* Info.plist */,
 			);
 			path = KDSafetyTimerUITests;
+			sourceTree = "<group>";
+		};
+		62AB1B50210388CA00A4D4CB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				62AB1B51210388CA00A4D4CB /* KDSafetyTimer.swift */,
+			);
+			name = Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AB1B2E2103828000A4D4CB /* BViewController.swift in Sources */,
 				62AB1AE021037E7D00A4D4CB /* ViewController.swift in Sources */,
+				62AB1B52210388CA00A4D4CB /* KDSafetyTimer.swift in Sources */,
 				62AB1ADE21037E7D00A4D4CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
